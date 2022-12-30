@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-us" style="background-color: #F4F1DE; font-family: sans-serif;">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
+    <div style="text-align: center;">
+      <h2>Game Inspired by an Escaping Hamster and Google's Dinosaur Game.
+        <br><br>Source code can all be found within this Link here: <a href="https://github.com/RyTang/Neslos-Escape">Neslo's Escape Source Code</a></h2>
+    </div>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -21,6 +25,10 @@
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Hamster</div>
+      </div>
+      <div style="text-align: center;">
+        <br>
+        <h2>Game, Art and Music are all created by Ryan Tang.</h2> 
       </div>
     </div>
     <script>
@@ -90,8 +98,8 @@
 
         canvas.style.width = window.innerWidth + 'px';
         canvas.style.height = window.innerHeight + 'px';
+        unityInstance.SetFullscreen(1);
 
-        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
