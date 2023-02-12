@@ -10,4 +10,8 @@ This game was created in Unity which mainly uses C# to create the fundamental ga
 
 Unity, C#, Github
 
+## Methodologies [(Code Structure Link)](https://github.com/RyTang/Neslos-Escape/tree/main/Game%20Code/Scripts):
+The focus of this game was my attempt in understanding and coding my best in programming using a modular programming paradigm. Having each and every singular functionality be as modular as possible. However, it was incredibly hard to faithfully follow the focus especially when I am not as adept in Unity. Therefore, there were lots of research and mechanism, especially game design, that had to be researched while developing the game.
+
+
 Author: Ryan Tang Li Jian
